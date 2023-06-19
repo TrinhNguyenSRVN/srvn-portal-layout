@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sorimachi Việt Nam | Cổng thông tin Sorimachi Việt Nam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium Bootstrap v5.1.0. Landing Page Template" />
+    <meta name="keywords" content="Bootstrap v5.1.0., premium, marketing, multipurpose" />
+    <meta content="Pichforest" name="author" />
+
+    <!-- favicon -->
+    <!-- <link href="images/favicon.ico" rel="shortcut icon"> -->
+    <link href="http://sorimachi.vn/favicon.ico" rel="shortcut icon">
+
+    <script src="./js/tailwindcss.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- icon -->
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="css/pe-icon-7.css" rel="stylesheet" type="text/css" />
+
+    <!-- Swiper-slider Css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="60">
+
+    <!-- Preloader -->
+    <!-- <div id="preloader">
+        <div id="status">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div> -->
+    <!-- END PRELOADER -->
+
+    <!-- NAVBAR START -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed top-0 right-0 left-0 z-[1030]">
+        <div class="container items-center mx-[10px] flex flex-col lg:flex-row ">
+            <div class="flex justify-between w-full lg:w-auto ">
+                <a class="navbar-brand py-[0.3125rem] mr-[1rem] text-[1.25rem] whitespace-nowrap" href="#">
+                    <img src="./images/logo/sorimachi_portal.png" alt="logo" class="logo-dark h-[25px] xl:h-[30px]" />
+                    <img src="./images/logo/sorimachi_portal.png" alt="logo" class="logo-light h-[25px] xl:h-[30px]" />
+                </a>
+                <button id="btnCollapse" class="lg:hidden text-[25px]" type="button">
+                    <span class="mdi mdi-menu"></span>
+                </button>
+            </div>
+            <div class="hidden lg:flex flex-col lg:flex-row  items-center justify-between w-[100%] range-collapse">
+                <div class="flex items-center">
+                    <ul id="navbar-navlist" class="navbar-nav ms-auto ml-auto flex pl-0 mb-0 list-none mt-0">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link block py-[0.5rem] px-[1rem] text-[13px] hover:underline">
+                                Sản phẩm
+                                <span class="mdi mdi-chevron-down"></span>
+                            </a>
+                            <div class="menu_list__expand hidden z-999 w-full left-0 absolute p-4 bg-gray-50 shadow-lg">
+                                <div class="p-6">
+                                    <a href="#" class="text-blue-600 hover:underline">Tất cả sản phẩm (10+)</a>
+                                </div>
+                                <hr />
+                                <div class="p-4">
+                                    <div class="mx-2">
+                                        <h6 class="text-lg font-semibold">Nông nghiệp</h6>
+                                        <p class="mt-1">Các sản phẩm nông nghiệp</p>
+                                    </div>
+                                    <ul class="grid grid-cols-2 m-2 xl:grid-cols-3 2xl:grid-cols-4">
+                                        <li class="group p-4 hover:bg-white hover:shadow-md hover:rounded-md">
+                                            <i class="text-2xl pe-7s-display1"></i>
+                                            <div class="text-lg font-medium">
+                                                <a href="#" class="group-hover:underline">Hanbai</a>
+                                            </div>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </li>
+                                        <li class="group p-4 hover:bg-white hover:shadow-md hover:rounded-md">
+                                            <i class="text-2xl pe-7s-display1"></i>
+                                            <div class="text-lg font-medium">
+                                                <a href="#" class="group-hover:underline">Hanbai</a>
+                                            </div>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </li>
+                                        <li class="group p-4 hover:bg-white hover:shadow-md hover:rounded-md">
+                                            <i class="text-2xl pe-7s-display1"></i>
+                                            <div class="text-lg font-medium">
+                                                <a href="#" class="group-hover:underline">Hanbai</a>
+                                            </div>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </li>
+                                        <li class="group p-4 hover:bg-white hover:shadow-md hover:rounded-md">
+                                            <i class="text-2xl pe-7s-display1"></i>
+                                            <div class="text-lg font-medium">
+                                                <a href="#" class="group-hover:underline">Hanbai</a>
+                                            </div>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </li>
+                                        <li class="group p-4 hover:bg-white hover:shadow-md hover:rounded-md">
+                                            <i class="text-2xl pe-7s-display1"></i>
+                                            <div class="text-lg font-medium">
+                                                <a href="#" class="group-hover:underline">Hanbai</a>
+                                            </div>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <div class="mx-2">
+                                        <h6 class="text-lg font-semibold">Nhân sự</h6>
+                                        <p class="mt-1">Các sản phẩm nhân sự</p>
+                                    </div>
+                                    <ul class="grid grid-cols-2 m-2 xl:grid-cols-3 2xl:grid-cols-4">
+                                        <li class="group p-4 hover:bg-white hover:shadow-md hover:rounded-md">
+                                            <i class="text-2xl pe-7s-display1"></i>
+                                            <div class="text-lg font-medium">
+                                                <a href="#" class="group-hover:underline">Hanbai</a>
+                                            </div>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <div class="mx-2">
+                                        <h6 class="text-lg font-semibold">Kế toán</h6>
+                                        <p class="mt-1">Các sản phẩm kế toán</p>
+                                    </div>
+                                    <ul class="grid grid-cols-2 m-2 xl:grid-cols-3 2xl:grid-cols-4">
+                                        <li class="group p-4 hover:bg-white hover:shadow-md hover:rounded-md">
+                                            <i class="text-2xl pe-7s-display1"></i>
+                                            <div class="text-lg font-medium">
+                                                <a href="#" class="group-hover:underline">Hanbai</a>
+                                            </div>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </li>
+                                        <li class="group p-4 hover:bg-white hover:shadow-md hover:rounded-md">
+                                            <i class="text-2xl pe-7s-display1"></i>
+                                            <div class="text-lg font-medium">
+                                                <a href="#" class="group-hover:underline">Hanbai</a>
+                                            </div>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link block py-[0.5rem] px-[1rem] text-[13px] hover:underline">
+                                Giải pháp
+                                <span class="mdi mdi-chevron-down"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link block py-[0.5rem] px-[1rem] text-[13px] hover:underline">
+                                Chi phí
+                                <span class="mdi mdi-chevron-down"></span>
+                            </a>
+                            <div
+                                class="menu_list__expand hidden z-999 w-full left-0 absolute p-4 bg-gray-50 shadow-lg flex">
+                                <ul class="w-1/2 p-4 xl:w-1/3">
+                                    <li class="p-2">
+                                        <div class="text-lg font-medium">
+                                            <a href="#" class="hover:underline">Hanbai</a>
+                                        </div>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </li>
+                                    <li class="p-2">
+                                        <div class="text-lg font-medium">
+                                            <a href="#" class="hover:underline">Hanbai</a>
+                                        </div>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </li>
+                                    <li class="p-2">
+                                        <div class="text-lg font-medium">
+                                            <a href="#" class="hover:underline">Hanbai</a>
+                                        </div>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </li>
+                                    <li class="p-2">
+                                        <div class="text-lg font-medium">
+                                            <a href="#" class="hover:underline">Hanbai</a>
+                                        </div>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </li>
+                                    <li class="p-2">
+                                        <div class="text-lg font-medium">
+                                            <a href="#" class="hover:underline">Hanbai</a>
+                                        </div>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <ul class="w-1/2 p-4 xl:w-1/3">
+                                    <li class="p-2">
+                                        <div class="text-lg font-medium">
+                                            <a href="#" class="hover:underline">Hanbai</a>
+                                        </div>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </li>
+                                    <li class="p-2">
+                                        <div class="text-lg font-medium">
+                                            <a href="#" class="hover:underline">Hanbai</a>
+                                        </div>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link block py-[0.5rem] px-[1rem] text-[13px] hover:underline">
+                                Đối tác
+                                <span class="mdi mdi-chevron-down"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link block py-[0.5rem] px-[1rem] text-[13px] hover:underline">
+                                Tài nguyên
+                                <span class="mdi mdi-chevron-down"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex justify-end items-center">
+                    <ul id="navbar-navlist"
+                        class="navbar-nav items-center ms-auto ml-auto flex pl-0 mb-0 list-none mt-0">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link block py-[0.5rem] px-[1rem] text-[13px] hover:underline">
+                                Hỗ trợ
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link block py-[0.5rem] px-[1rem] text-[13px] hover:underline">
+                                Liên hệ
+                            </a>
+                        </li>
+                        <li class="nav-item px-2 py-1 rounded bg-yellow-500 text-white hover:bg-yellow-400">
+                            <a href="#home" class="nav-link block py-[0.5rem] px-[1rem] text-[13px] hover:underline">
+                                Đăng ký
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link block py-[0.5rem] px-[1rem] text-[13px] hover:underline">
+                                Đăng nhập
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- Hero Start -->
+    <section id="home" class="bg-home pt-[80px] pb-[30px]">
+        <div class="container mx-auto px-5 lg:px-48">
+            <div class="flex flex-col-reverse md:flex-row items-center text-center md:text-left">
+                <div class="w-full md:w-3/5">
+                    <h6 class="text-3xl">Sử dụng dịch vụ của Sorimachi Việt Nam</h6>
+                    <h5 class="py-3 text-2xl text-orange-500 font-bold lg:text-3xl">HOÀN TOÀN MIỄN PHÍ</h5>
+                    <p class="text-gray-400 text-lg">Trải nghiệm miễn phí và đầy đủ các tính năng các phần mềm của
+                        Sorimachi Việt Nam 30 ngày.</p>
+                    <div
+                        class="max-w-max my-6 px-10 py-3 rounded bg-blue-800 text-white font-medium hover:bg-blue-900 hover:shadow-lg hover:-translate-y-1 trans-all-300 mx-auto md:mx-0">
+                        <a href="#">
+                            Đăng ký ngay<span class="ml-2 right-icon">→</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="w-full md:w-2/5 hover01">
+                    <img class="w-[100%]" src="http://sorimachi.vn/images/homepage_register_vn.png" alt="">
+                    <style>
+                        .hover01 img {
+                            -webkit-transform: scale(1);
+                            transform: scale(1);
+                            -webkit-transition: .3s ease-in-out;
+                            transition: .3s ease-in-out;
+                        }
+
+                        .hover01 img:hover {
+                            -webkit-transform: scale(1.1);
+                            transform: scale(1.1);
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END HERO  -->
+
+    <!-- Service Start -->
+    <section id="services" class="mt-[30px]">
+        <div class="flex items-center justify-center flex-col mb-5">
+            <h4 class="font-bold text-[27px]">
+                Sản phẩm <span class="text-[#2558ab]">Sorimachi Việt Nam</span>
+            </h4>
+            <small class="text-[15px]">
+                Sử dụng các sản phẩm dịch vụ của Sorimachi Việt Nam để tăng hiệu quả công việc cho bạn!
+            </small>
+        </div>
+        <div class="flex flex-wrap justify-evenly">
+            <div class="service-box basis-[90%] md:basis-[48%] lg:basis-[23%] xl:basis-[24%] mt-[20px] flex flex-col"
+                style="box-shadow: 0 0.1875rem 0.4375rem 0 rgba(0,0,0,.13), 0 0.0625rem 0.125rem 0 rgba(0,0,0,.11);">
+                <div class="basis-[30%]">
+                    <img src="./images/logo/logo_ff.png" alt="" class="h-[60px]">
+                </div>
+                <div class="basis-[70%]">
+                    <div class="service-content flex flex-col justify-between h-[100%] mt-3">
+                        <p>
+                            Với tâm niệm 'Niềm vui của khách hàng là hạnh phúc của bản thân', chúng tôi hy vọng Nhật ký
+                            sản xuất FaceFarm sẽ giúp đơn vị của bạn ngày càng phát triển
+                        </p>
+                        <a href="#">Đăng ký ngay <span class="right-icon">&#8594;</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="service-box basis-[90%] md:basis-[48%] lg:basis-[23%] xl:basis-[24%] mt-[20px] flex flex-col"
+                style="box-shadow: 0 0.1875rem 0.4375rem 0 rgba(0,0,0,.13), 0 0.0625rem 0.125rem 0 rgba(0,0,0,.11);">
+                <div class="basis-[30%] flex items-center">
+                    <img src="./images/logo/logo_waca.png" alt="" class="h-[60px]">
+                    <span class="font-medium text-[#0D1369]">Kế toán HTX</span>
+                </div>
+                <div class="basis-[70%]">
+                    <div class="service-content flex flex-col justify-between h-[100%] mt-3">
+                        <p>
+                            Được xây dựng trên nền tảng Hệ thống Web kế toán Nhật Bản, vốn là phần mềm chiếm thị phần số
+                            1 trong lĩnh vực phần mềm kế toán nông nghiệp tại Nhật Bản.
+                        </p>
+                        <a href="#">Đăng ký ngay <span class="right-icon">&#8594;</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="service-box basis-[90%] md:basis-[48%] lg:basis-[23%] xl:basis-[24%] mt-[20px] flex flex-col"
+                style="box-shadow: 0 0.1875rem 0.4375rem 0 rgba(0,0,0,.13), 0 0.0625rem 0.125rem 0 rgba(0,0,0,.11);">
+                <div class="basis-[30%]">
+                    <img src="./images/logo/logo_hanbai.png" alt="" class="h-[60px]">
+                </div>
+                <div class="basis-[70%]">
+                    <div class="service-content flex flex-col justify-between h-[100%] mt-3">
+                        <p>
+                            Phần mềm quản lý bán hàng Chuyên biệt cho từng ngành hàng khác nhau.
+                        </p>
+                        <a href="#">Đăng ký ngay <span class="right-icon">&#8594;</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="service-box basis-[90%] md:basis-[48%] lg:basis-[23%] xl:basis-[24%] mt-[20px] flex flex-col"
+                style="box-shadow: 0 0.1875rem 0.4375rem 0 rgba(0,0,0,.13), 0 0.0625rem 0.125rem 0 rgba(0,0,0,.11);">
+                <div class="basis-[30%]">
+                    <img src="./images/logo/logo_salari_vn.png" alt="" class="h-[60px]">
+                </div>
+                <div class="basis-[70%]">
+                    <div class="service-content flex flex-col justify-between h-[100%] mt-3">
+                        <p>
+                            Phần mềm tính Lương đáp ứng các điều kiện quyết toán thuế mới nhất.
+                        </p>
+                        <a href="#">Đăng ký ngay <span class="right-icon">&#8594;</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SERVICE -->
+
+    <!-- START FEATURES -->
+    <section id="features">
+        <div class="container mx-auto px-5 xl:px-48 mt-[25px]">
+            <div
+                class="flex flex-col-reverse md:flex-row border-b-[1px] border-solid border-[#ccc] my-[25px] py-[25px]">
+                <div class="flex-[2]">
+                    <h5 class="text-[20px] font-bold mb-3 text-center">
+                        FaceFarm
+                    </h5>
+                    <h6 class="font-medium mb-3">
+                        Với mong muốn góp phần thúc đẩy Chương trình chuyển đổi số, chúng tôi giải quyết các vấn đề sau
+                        cho Nông nghiệp Việt Nam
+                    </h6>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Thiếu thông tin phục vụ sản xuất, kinh doanh, tiêu dùng và các cơ quan chuyên ngành.
+                        </p>
+                    </div>
+
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Chưa tích hợp dữ liệu để phân tích và đưa ra phương án khắc phục.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Đơn vị hỗ trợ khó nắm bắt thông tin, khó triển khai kịp thời và hiệu quả.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Sản xuất khó khăn, sản phẩm còn phụ thuộc trung gian.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Không có lịch sử ghi chép quá trình sản xuất dẫn đến không thể truy xuất nguồn gốc sản phẩm.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold align text-primary me-2"></i>
+                        <p>
+                            Nông dân có tâm lý chạy theo số đông, khó trao đổi kinh nghiệm và đánh giá sự phát triển của
+                            từng nông trại.
+                        </p>
+                    </div>
+                    <a href="#" class="text-primary">Chi tiết <span class="right-icon ms-2">→</span></a>
+                </div>
+                <div class="flex-[3] flex items-center px-5">
+                    <img src="http://sorimachi.vn/images/facefarm_vn.jpg" alt="">
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row border-b-[1px] border-solid border-[#ccc] my-[25px] py-[25px]">
+                <div class="flex-[3] flex items-center px-5">
+                    <img src="http://sorimachi.vn/images/waca_vn.jpg" alt="">
+                </div>
+                <div class="flex-[2]">
+                    <h5 class="text-[20px] font-bold mb-3 text-center">
+                        FaceFarm
+                    </h5>
+                    <h6 class="font-medium mb-3">
+                        Phần mềm WACA sẽ giúp các HTX “Nâng cao năng lực quản lý tài chính, giảm thiểu chi phí” nắm bắt
+                        kịp thời tình hình kinh doanh. Và bên cạnh việc hỗ trợ công tác Kế toán HTX, WACA còn giải quyết
+                        sau
+                    </h6>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Chưa sử dụng hệ thống phần mềm kế toán thống nhất.
+                        </p>
+                    </div>
+
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Sổ sách kế toán còn thủ công.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Xử lý kế toán thiếu sót.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Khó nhận đầu tư từ doanh nghiệp tư nhân và cơ quan tài chính.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Gặp khó khăn trong việc tổ chức kiểm toán HTX.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold align text-primary me-2"></i>
+                        <p>
+                            Khó tạo lòng tin cho thành viên HTX, nhà cung cấp, các tổ chức tín dụng.
+                        </p>
+                    </div>
+                    <a href="#" class="text-primary">Chi tiết <span class="right-icon ms-2">→</span></a>
+                </div>
+            </div>
+            <div
+                class="flex flex-col-reverse md:flex-row border-b-[1px] border-solid border-[#ccc] my-[25px] py-[25px]">
+                <div class="flex-[2]">
+                    <h5 class="text-[20px] font-bold mb-3 text-center">
+                        FaceFarm
+                    </h5>
+                    <h6 class="font-medium mb-3">
+                        Với mong muốn góp phần thúc đẩy Chương trình chuyển đổi số, chúng tôi giải quyết các vấn đề sau
+                        cho Nông nghiệp Việt Nam
+                    </h6>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Thiếu thông tin phục vụ sản xuất, kinh doanh, tiêu dùng và các cơ quan chuyên ngành.
+                        </p>
+                    </div>
+
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Chưa tích hợp dữ liệu để phân tích và đưa ra phương án khắc phục.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Đơn vị hỗ trợ khó nắm bắt thông tin, khó triển khai kịp thời và hiệu quả.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Sản xuất khó khăn, sản phẩm còn phụ thuộc trung gian.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Không có lịch sử ghi chép quá trình sản xuất dẫn đến không thể truy xuất nguồn gốc sản phẩm.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold align text-primary me-2"></i>
+                        <p>
+                            Nông dân có tâm lý chạy theo số đông, khó trao đổi kinh nghiệm và đánh giá sự phát triển của
+                            từng nông trại.
+                        </p>
+                    </div>
+                    <a href="#" class="text-primary">Chi tiết <span class="right-icon ms-2">→</span></a>
+                </div>
+                <div class="flex-[3] flex items-center px-5">
+                    <img src="./images/product/img_02.jpg" alt="">
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row my-[25px] py-[25px]">
+                <div class="flex-[3] flex items-center px-5">
+                    <img src="./images/product/img_03.jpg" alt="">
+                </div>
+                <div class="flex-[2]">
+                    <h5 class="text-[20px] font-bold mb-3 text-center">
+                        Kyuryo
+                    </h5>
+                    <h6 class="font-medium mb-3">
+                        Phần mềm tính lương, với các chức năng nổi bật như:
+                    </h6>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Đáp ứng các điều kiện quyết toán thuế mới nhất.
+                        </p>
+                    </div>
+
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Hỗ trợ tạo và tự động tính bảng lương theo yêu cầu đặc thù cho từng doanh nghiệp.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Gửi phiếu lương qua ICloud.
+                        </p>
+                    </div>
+                    <a href="#" class="text-primary">Chi tiết <span class="right-icon ms-2">→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Features End -->
+
+    <!-- START ABOUT -->
+    <section class="section bg-light" id="about">
+        <div class="container mx-auto px-5 xl:px-48 py-[40px]">
+            <div class="flex flex-col-reverse md:flex-row">
+                <div class="flex-1">
+                    <h3 class="font-bold text-[30px] mb-3">
+                        Một <span class="text-primary">nỗ lực nhỏ</span> của bạn <br>
+                        là một <span class="text-primary">bước tiến lớn</span> của chúng tôi
+                    </h3>
+                    <p class="mb-3">
+                        Với thông điệp <i>"Sự hài lòng của khách hàng là ưu tiên hàng đầu của chúng tôi"</i>, <br>
+                        <span class="font-medium">Sorimachi Việt Nam cam kết:</span>
+                    </p>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Mang đến sự trải nghiệm tốt nhất.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Cải thiện công việc với hiệu quả tốt nhất.
+                        </p>
+                    </div>
+                    <div class="flex mb-3">
+                        <i class="mdi mdi-check-bold text-primary me-2"></i>
+                        <p>
+                            Đội ngũ chăm sóc khách hàng năng động & nhiệt tình.
+                        </p>
+                    </div>
+                    <div
+                        class="max-w-max my-6 px-10 py-3 rounded bg-blue-800 text-white font-medium hover:bg-blue-900 hover:shadow-lg hover:-translate-y-1 trans-all-300 mx-auto md:mx-0">
+                        <a href="#">
+                            Đăng ký ngay<span class="ml-2 right-icon">→</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <img src="./images/about.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- START COUNTER -->
+    <section class="section counter-bg relative bg-no-repeat bg-center"
+        style="background-image: url(http://sorimachi.vn/images/background_company_products.png); " id="portfolio">
+        <div class="bg-overlay" style="background-color: rgba(42, 48, 59, 0.1);"></div>
+        <div class="vn-map absolute top-0 right-0 h-[100%]">
+            <img src="http://sorimachi.vn/images/vietnam_map.png" alt="" srcset="" style="height: 100%;">
+        </div>
+        <style>
+            /* .counter-bg {
+                position: relative;
+                background-repeat: no-repeat;
+                background-position: center;
+            } */
+
+            /* .vn-map {
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100%;
+            } */
+
+            /* @media (max-width: 768px) {
+                .counter-bg {
+                    background-position: right;
+                }
+
+                .vn-map {
+                    top: 30%;
+                    height: 35%;
+                }
+            } */
+        </style>
+        <div class="container mx-auto px-5 xl:px-48 py-[40px] relative">
+            <div class="flex justify-center">
+                <h2 class="text-[30px]">Sản phẩm hiện đang có mặt trên <br class="xl:hidden">
+                    <span class="text-[40px] font-bold">63 tỉnh thành</span>
+                </h2>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="basis-[50%] md:basis-[25%]">
+                    <div class="counter-box text-center mt-4">
+                        <div class="counter-icon mb-4">
+                            <i class="pe-7s-like2"></i>
+                        </div>
+                        <div class="counters">
+                            <h3 class="counter mb-0">120+</h3>
+                        </div>
+                        <p class="uppercase">HỢP TÁC XÃ TIN DÙNG</p>
+                    </div>
+                </div>
+                <div class="basis-[50%] md:basis-[25%]">
+                    <div class="counter-box text-center mt-4">
+                        <div class="counter-icon mb-4">
+                            <i class="pe-7s-light"></i>
+                        </div>
+                        <div class="counters">
+                            <h3 class="counter mb-0">350+</h3>
+                        </div>
+                        <p class="uppercase">SẢN PHẨM ĐANG KÍCH HOẠT</p>
+                    </div>
+                </div>
+
+                <div class="basis-[50%] md:basis-[25%]">
+                    <div class="counter-box text-center mt-4">
+                        <div class="counter-icon mb-4">
+                            <i class="pe-7s-smile"></i>
+                        </div>
+                        <div class="counters">
+                            <h3 class="counter mb-0">10.000</h3>
+                        </div>
+                        <p class="uppercase">Satisfied Clients</p>
+                    </div>
+                </div>
+                <div class="basis-[50%] md:basis-[25%]">
+                    <div class="counter-box text-center mt-4">
+                        <div class="counter-icon mb-4">
+                            <i class="pe-7s-star"></i>
+                        </div>
+                        <div class="counters">
+                            <h2 class="counter mb-0">590+</h2>
+                        </div>
+                        <p class="uppercase">Award Win</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END COUNTER -->
+
+    <section id="feedback" class="bg-light pt-[30px]">
+        <div class="flex items-center justify-center flex-col mb-5">
+            <h4 class="font-bold text-[27px]">Phản hồi từ <span class="text-[#2558ab]">Khách hàng</span></h4>
+            <small class="text-[15px]">
+                Với tâm niệm luôn luôn lắng nghe, sẵn sàng phục vụ - đó là 1 trong những slogan tạo nên tên tuổi cho
+                Sorimachi Việt Nam.
+            </small>
+        </div>
+        <div class="container mx-auto px-5 xl:px-48 py-[40px]">
+            <div class="swiper-container testi-slider pb-5">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testi-box p-3 position-relative">
+                            <div class="testi-content">
+                                <ul class="list-inline fs-15 text-warning mb-2">
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                                <p class="text-muted position-relative mb-0 f-14" style="height: 70px;"><span
+                                        class="f-20 me-1">"</span>
+                                    Các sản phẩm của Sorimachi Việt Nam thật sự rất tốt và đáng để trải nghiệm.
+                                    Dịch vụ cạnh tranh.
+                                    <span class="f-16">"</span>
+                                </p>
+                            </div>
+                            <div class="testi-user mt-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="images/user/img-1.jpg" alt="" class="me-3 img-fluid rounded-circle">
+                                    <div class="flex-1">
+                                        <h6 class="mb-0 f-15">Chị Nguyễn Thị C</h6>
+                                        <p class="text-muted mb-0 f-14">HTX An Giang</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end testi-box-->
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testi-box p-3 position-relative">
+                            <div class="testi-content">
+                                <ul class="list-inline fs-15 text-warning mb-2">
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                                <p class="text-muted position-relative mb-0 f-14" style="height: 70px;"><span
+                                        class="f-20 me-1">"</span>
+                                    Từ khi sử dụng dịch vụ của Sorimachi Việt Nam, công việc của chúng tôi đi
+                                    vào nề nếp và ổn định hơn, giá cả phải chăng. Chúc công ty phát triển hơn
+                                    nữa.<span class="f-16">"</span></p>
+                            </div>
+                            <!--end testi-content-->
+                            <div class="testi-user d-flex align-items-center mt-4">
+                                <img src="images/user/img-2.jpg" alt="" class="me-3 img-fluid d-block rounded-circle">
+                                <div class="flex-1">
+                                    <h6 class="mb-0 f-15">Chị Đào Bá Anh</h6>
+                                    <p class="text-muted mb-0 f-14">HTX Bình Phước</p>
+                                </div>
+                            </div>
+                            <!--end testi-user-->
+                        </div>
+                        <!--end testi-box-->
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testi-box p-3 position-relative">
+                            <div class="testi-content">
+                                <ul class="list-inline fs-15 text-warning mb-2">
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                                <p class="text-muted position-relative mb-0 f-14" style="height: 70px;"><span
+                                        class="f-20 me-1">"</span>
+                                    The main component of a healthy environment for self esteem is that it needs
+                                    be nurturing. <span class="f-16">"</span></p>
+                            </div>
+                            <!--end testi-content-->
+                            <div class="testi-user mt-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="images/user/img-3.jpg" alt=""
+                                        class="me-3 img-fluid d-block rounded-circle">
+                                    <div class="flex-1">
+                                        <h6 class="mb-0 f-15">Francis Ibikunle</h6>
+                                        <p class="text-muted mb-0 f-14">Product Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end testi-user-->
+                        </div><!-- end testi-box -->
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testi-box p-3 position-relative">
+                            <div class="testi-content">
+                                <ul class="list-inline fs-15 text-warning mb-2">
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                    <li class="inline-block m-0"><i class="mdi mdi-star"></i></li>
+                                </ul>
+                                <p class="text-muted position-relative mb-0 f-14" style="height: 70px;"><span
+                                        class="f-20 me-1">"</span>
+                                    These qualities can be combined perfectly natural. However, things like
+                                    people look miserable. <span class="f-16">"</span></p>
+                            </div>
+                            <!--end testi-content-->
+                            <div class="testi-user mt-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="images/user/img-5.jpg" alt=""
+                                        class="me-3 img-fluid d-block rounded-circle">
+                                    <div class="flex-1">
+                                        <h6 class="mb-0 f-15">Roberta Guevara</h6>
+                                        <p class="text-muted mb-0 f-14">Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end testi-user-->
+                        </div>
+                        <!--end testi-box-->
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback" class="pt-[30px]">
+        <div class="flex items-center justify-center flex-col mb-5">
+            <h4 class="font-bold text-[27px]"><span class="text-[#2558ab]">Đối tác</span> của chúng tôi</h4>
+        </div>
+        <div class="container mx-auto px-5 xl:px-48 py-[40px]">
+            <div class="flex justify-between">
+                <div class="flex-[1] mx-5 team-box mt-4">
+                    <div class="team-img text-center">
+                        <img src="./images/partner/svct.png" alt="" class="h-[150px] !w-[150px] mx-auto">
+                        <div class="team-overlay">
+                            <div class="team-content text-center">
+                                <div class="team-social-icon">
+                                    <a href="#" class="m-1"><i class="mdi mdi-facebook"></i></a>
+                                    <a href="#" class="m-1"><i class="mdi mdi-twitter"></i></a>
+                                    <a href="#" class="m-1"><i class="mdi mdi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3 text-center">
+                        <h5 class="fs-17 mb-1">
+                            <a href="#" class="primary-link">
+                                Trường Trung cấp Nghề và Đào tạo<br>
+                                cán bộ HTX Miền nam</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="flex-[1] mx-5 team-box mt-4">
+                    <div class="team-img text-center">
+                        <img src="./images/partner/vca.png" alt="" class="h-[150px] !w-[150px] mx-auto">
+                        <div class="team-overlay">
+                            <div class="team-content text-center">
+                                <div class="team-social-icon">
+                                    <a href="#" class="m-1"><i class="mdi mdi-facebook"></i></a>
+                                    <a href="#" class="m-1"><i class="mdi mdi-twitter"></i></a>
+                                    <a href="#" class="m-1"><i class="mdi mdi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3 text-center">
+                        <h5 class="fs-17 mb-1">
+                            <a href="#" class="primary-link">
+                                Trường Trung cấp Nghề và Đào tạo <br>
+                                cán bộ HTX Miền nam
+                            </a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="flex-[1] mx-5 team-box mt-4">
+                    <div class="team-img text-center">
+                        <img src="./images/partner/dcrd.png" alt="" class="h-[150px] !w-[150px] mx-auto">
+                        <div class="team-overlay">
+                            <div class="team-content text-center">
+                                <div class="team-social-icon">
+                                    <a href="#" class="m-1"><i class="mdi mdi-facebook"></i></a>
+                                    <a href="#" class="m-1"><i class="mdi mdi-twitter"></i></a>
+                                    <a href="#" class="m-1"><i class="mdi mdi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3 text-center">
+                        <h5 class="fs-17 mb-1">
+                            <a href="#" class="primary-link">
+                                Trường Trung cấp Nghề và Đào tạo <br>
+                                cán bộ HTX Miền nam
+                            </a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback" class="bg-light pt-[30px]">
+        <div class="flex items-center justify-center flex-col mb-5">
+            <h4 class="font-bold text-[27px]">Tin tức</h4>
+        </div>
+        <div class="container mx-auto px-5 xl:px-48 py-[40px]">
+            <div class="flex">
+                <div class="mx-[20px]">
+                    <div class="blog-box card mt-4">
+                        <div class="blog-img">
+                            <img src="images/blog-01.jpg" alt="Blog" class="w-100 img-fluid rounded-top">
+                            <div class="blog-tag">
+                                <span>Business</span>
+                            </div>
+                        </div>
+                        <div class="blog-content card-body p-4">
+                            <ul class="list-inline text-muted mb-0 flex justify-between">
+                                <li class="list-inline-item fs-14"><i class="mdi mdi-calendar-month me-1"></i>24th June
+                                    2020</li>
+                                <li class="list-inline-item fs-14"><i class="mdi mdi-account me-1"></i><a href="#"
+                                        class="text-muted">Admin</a></li>
+                            </ul>
+                            <a href="#" class="primary-link">
+                                <h5 class="my-3">Smartest Applications for Business</h5>
+                            </a>
+                            <a href="#" class="text-secondary">Xem thêm <i
+                                    class="mdi mdi-arrow-right align-middle"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-[20px]">
+                    <div class="blog-box card mt-4">
+                        <div class="blog-img">
+                            <img src="images/blog-01.jpg" alt="Blog" class="w-100 img-fluid rounded-top">
+                            <div class="blog-tag">
+                                <span>Business</span>
+                            </div>
+                        </div>
+                        <div class="blog-content card-body p-4">
+                            <ul class="list-inline text-muted mb-0 flex justify-between">
+                                <li class="list-inline-item fs-14"><i class="mdi mdi-calendar-month me-1"></i>24th June
+                                    2020</li>
+                                <li class="list-inline-item fs-14"><i class="mdi mdi-account me-1"></i><a href="#"
+                                        class="text-muted">Admin</a></li>
+                            </ul>
+                            <a href="#" class="primary-link">
+                                <h5 class="my-3">Smartest Applications for Business</h5>
+                            </a>
+                            <a href="#" class="text-secondary">Xem thêm <i
+                                    class="mdi mdi-arrow-right align-middle"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-[20px] hidden md:block">
+                    <div class="blog-box card mt-4">
+                        <div class="blog-img">
+                            <img src="images/blog-01.jpg" alt="Blog" class="w-100 img-fluid rounded-top">
+                            <div class="blog-tag">
+                                <span>Business</span>
+                            </div>
+                        </div>
+                        <div class="blog-content card-body p-4">
+                            <ul class="list-inline text-muted mb-0 flex justify-between">
+                                <li class="list-inline-item fs-14"><i class="mdi mdi-calendar-month me-1"></i>24th June
+                                    2020</li>
+                                <li class="list-inline-item fs-14"><i class="mdi mdi-account me-1"></i><a href="#"
+                                        class="text-muted">Admin</a></li>
+                            </ul>
+                            <a href="#" class="primary-link">
+                                <h5 class="my-3">Smartest Applications for Business</h5>
+                            </a>
+                            <a href="#" class="text-secondary">Xem thêm <i
+                                    class="mdi mdi-arrow-right align-middle"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback" class="pt-[30px]">
+        <div class="flex items-center justify-center flex-col mb-5">
+            <h4 class="font-bold text-[27px]">Liên hệ</h4>
+        </div>
+        <div class="container mx-auto px-5 xl:px-48">
+            <div class="flex flex-wrap mt-10">
+                <!-- company infomation -->
+                <div class="w-full p-6 lg:w-1/3">
+                    <div class="flex space-x-6 items-center">
+                        <div
+                            class="w-9 h-9 flex flex-none justify-center items-center rounded bg-blue-100 text-center text-xl text-blue-800">
+                            <i class="mdi mdi-map-marker"></i>
+                        </div>
+                        <p class="text-gray-400">Tầng 9, Cao Ốc Tuổi Trẻ, 60A Hoàng Văn Thụ, P. 9, Quận Phú Nhuận, TP.
+                            Hồ Chí Minh</p>
+                    </div>
+                    <div class="flex mt-3 space-x-6 items-center">
+                        <div
+                            class="w-9 h-9 flex flex-none justify-center items-center rounded bg-blue-100 text-center text-xl text-blue-800">
+                            <i class="mdi mdi-phone"></i>
+                        </div>
+                        <p class="text-gray-400">+250 4512 2165</p>
+                    </div>
+                    <div class="flex mt-3 space-x-6 items-center">
+                        <div
+                            class="w-9 h-9 flex flex-none justify-center items-center rounded bg-blue-100 text-center text-xl text-blue-800">
+                            <i class="mdi mdi-email"></i>
+                        </div>
+                        <p class="text-gray-400">hotro@sorimachigroup.vn</p>
+                    </div>
+                    <div class="flex mt-3 space-x-6 items-center">
+                        <div
+                            class="w-9 h-9 flex flex-none justify-center items-center rounded bg-blue-100 text-center text-xl text-blue-800">
+                            <i class="mdi mdi-clock-time-four-outline"></i>
+                        </div>
+                        <p class="text-gray-400">Thứ 2 - Thứ 6 8:00 am - 5:00 pm</p>
+                    </div>
+                </div>
+
+                <!-- contact form -->
+                <div class="w-full px-4 lg:w-7/12 lg:ml-auto">
+                    <form method="post" name="myForm" onsubmit="return validateForm()">
+                        <p id="error-msg"></p>
+                        <div class="flex flex-wrap">
+                            <div class="w-full px-3 md:w-1/2">
+                                <label for="name" class="inline-block pb-2">Họ và Tên</label>
+                                <input type="text" id="name" name="name"
+                                    class="w-full p-2 border border-gray-300 rounded text-gray-800"
+                                    placeholder="Nhập tên của bạn ...">
+                            </div>
+                            <div class="w-full mt-3 px-3 md:w-1/2 md:mt-0">
+                                <label for="email" class="inline-block pb-2">Email address</label>
+                                <input type="email" id="email" name="email"
+                                    class="w-full p-2 border border-gray-300 rounded text-gray-800"
+                                    placeholder="Nhâp Email của bạn ...">
+                            </div>
+                            <div class="w-full mt-3 px-3">
+                                <label for="subject" class="inline-block pb-2">Tiêu đề</label>
+                                <input type="text" id="subject" name="subject"
+                                    class="w-full p-2 border border-gray-300 rounded text-gray-800"
+                                    placeholder="Tiêu đề ...">
+                            </div>
+                            <div class="w-full mt-3 px-3">
+                                <label for="comments" class="inline-block pb-2">Nội dung</label>
+                                <textarea rows="3" id="comments" name="comments"
+                                    class="w-full p-2 border border-gray-300 rounded text-gray-800"
+                                    placeholder="Nội dung ..."></textarea>
+                            </div>
+                        </div>
+                        <div class="mt-3 px-3">
+                            <button type="submit" id="submit" name="send"
+                                class="px-10 py-3 rounded bg-blue-800 text-white font-medium hover:bg-blue-900 hover:shadow-lg hover:-translate-y-1 trans-all-300">
+                                Gửi
+                                <i class="mdi mdi-telegram ml-2"></i>
+                            </button>
+                        </div>
+                        <input name="__RequestVerificationToken" type="hidden"
+                            value="CfDJ8EXYp-jy_BtDusCGRsq2gwvHS_yLBUPavyaVxbtJueTQm3TnbmvPjjIMy9F0MsiSC7e21GLuIgXC70ZmAYjsg4sBU36KCqUHu8BibBdY88RMtpALRUhT-shSy5u52IAWNyK1ig-6XoZ0zP6n45bhRn8">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- START FOOTER -->
+    <footer>
+        <!-- FOOTER -->
+        <section class="footer py-10 bg-gray-100 mt-[30px]">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap">
+                    <div class="w-full px-3 md:w-1/2 lg:w-1/3">
+                        <a href="http://sorimachi.vn/">
+                            <img src="./images/logo/sorimachi_portal.png" alt="" class="h-8">
+                        </a>
+                        <p class="mt-4 text-gray-400">
+                            We denounce with righteous indignation in and dislike men who are so beguiled and to demo
+                            realized by the charms of pleasure moment, so blinded by desire, that they cannot foresee
+                            the pain and trouble that are bound.
+                        </p>
+                    </div>
+                    <div class="w-full mt-6 px-3 sm:w-1/2 md:w-1/4 md:mt-0 lg:w-1/6">
+                        <h6 class="text-lg">Services</h6>
+                        <ul class="mt-3">
+                            <li class="py-2 hover:translate-x-2 trans-all-300"><a href="#"
+                                    class="text-gray-400 hover:text-blue-800 trans-all-300">Digital Marketing</a></li>
+                            <li class="py-2 hover:translate-x-2 trans-all-300"><a href="#"
+                                    class="text-gray-400 hover:text-blue-800 trans-all-300">Business Analysis</a></li>
+                            <li class="py-2 hover:translate-x-2 trans-all-300"><a href="#"
+                                    class="text-gray-400 hover:text-blue-800 trans-all-300">How It Work</a></li>
+                            <li class="py-2 hover:translate-x-2 trans-all-300"><a href="#"
+                                    class="text-gray-400 hover:text-blue-800 trans-all-300">Fix &amp; Flip</a></li>
+                            <li class="py-2 hover:translate-x-2 trans-all-300"><a href="#"
+                                    class="text-gray-400 hover:text-blue-800 trans-all-300">Social Activation</a></li>
+                        </ul>
+                    </div>
+                    <div class="w-full mt-6 px-3 sm:w-1/2 md:w-1/4 md:mt-0 lg:w-1/6">
+                        <h6 class="text-lg">About Us</h6>
+                        <ul class="mt-3">
+                            <li class="py-2 hover:translate-x-2 trans-all-300"><a href="#"
+                                    class="text-gray-400 hover:text-blue-800 trans-all-300">Contact Us</a></li>
+                            <li class="py-2 hover:translate-x-2 trans-all-300"><a href="#"
+                                    class="text-gray-400 hover:text-blue-800 trans-all-300">FAQs</a></li>
+                            <li class="py-2 hover:translate-x-2 trans-all-300"><a href="#"
+                                    class="text-gray-400 hover:text-blue-800 trans-all-300">Blog</a></li>
+                            <li class="py-2 hover:translate-x-2 trans-all-300"><a href="#"
+                                    class="text-gray-400 hover:text-blue-800 trans-all-300">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="w-full mt-6 px-3 md:w-1/2 lg:w-1/3 lg:mt-0">
+                        <h6 class="text-lg">Company</h6>
+                        <p class="mt-4 text-gray-400">4806 Spring Haven Trail South Orange, NJ 07079</p>
+                        <p class="mt-4 text-gray-400">Email: Support@gamil.com</p>
+                        <ul class="flex space-x-4 mt-6">
+                            <li
+                                class="group flex h-10 w-10 border border-gray-300 rounded-full items-center justify-center text-2xl hover:ring-8 hover:ring-gray-200 hover:bg-blue-900 trans-all-300">
+                                <a href="#"><i
+                                        class="mdi mdi-facebook text-gray-300 group-hover:text-white trans-all-300"></i></a>
+                            </li>
+                            <li
+                                class="group flex h-10 w-10 border border-gray-300 rounded-full items-center justify-center text-2xl hover:ring-8 hover:ring-gray-200 hover:bg-blue-900 trans-all-300">
+                                <a href="#"><i
+                                        class="mdi mdi-instagram text-gray-300 group-hover:text-white trans-all-300"></i></a>
+                            </li>
+                            <li
+                                class="group flex h-10 w-10 border border-gray-300 rounded-full items-center justify-center text-2xl hover:ring-8 hover:ring-gray-200 hover:bg-blue-900 trans-all-300">
+                                <a href="#"><i
+                                        class="mdi mdi-linkedin text-gray-300 group-hover:text-white trans-all-300"></i></a>
+                            </li>
+                            <li
+                                class="group flex h-10 w-10 border border-gray-300 rounded-full items-center justify-center text-2xl hover:ring-8 hover:ring-gray-200 hover:bg-blue-900 trans-all-300">
+                                <a href="#"><i
+                                        class="mdi mdi-skype text-gray-300 group-hover:text-white trans-all-300"></i></a>
+                            </li>
+                            <li
+                                class="group flex h-10 w-10 border border-gray-300 rounded-full items-center justify-center text-2xl hover:ring-8 hover:ring-gray-200 hover:bg-blue-900 trans-all-300">
+                                <a href="#"><i
+                                        class="mdi mdi-slack text-gray-300 group-hover:text-white trans-all-300"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER ALT -->
+        <section class="footer-alt py-6 bg-gray-800">
+            <p class="text-center text-gray-400 text-md">
+                <script>document.write(new Date().getFullYear())</script> © Sorimachi Việt Nam - Mang hạnh phúc đến cho
+                mọi người bằng kế toán
+            </p>
+        </section>
+    </footer>
+    <!--end footer-alt-->
+    <!-- END FOOTER -->
+
+    <!--start back-to-top-->
+    <button onclick="topFunction()" id="back-to-top">
+        <i class="mdi mdi-arrow-up-bold"></i>
+    </button>
+    <!--end back-to-top-->
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Swiper slider -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Contact Js -->
+    <script src="js/contact.js"></script>
+
+    <!-- Main Js -->
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
